@@ -32,3 +32,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Create a new directory
+        run: mkdir newdir
+      - name: List all files and folders
+        run: ls -ltr
